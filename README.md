@@ -1,7 +1,7 @@
 # Daniel Santander
 > Welcome to my portfolio
 
-![screenshot](preview.png)
+![screenshot](/img/preview.png)
 
 ## Demo
 
