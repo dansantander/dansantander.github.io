@@ -511,5 +511,8 @@ footer .copyright p {
   .projects .project-container2 .project2 .p-img-container2 {
     width: auto;
   }
+  .about {
+    height: 65vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
