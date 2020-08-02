@@ -10,13 +10,13 @@ body {
   font-family: Open Sans;
 }
 
-h3 {
+h2 {
   color: #1eb8a4;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p {
-  color: #a7a7a7;
+  color: #3d3d3d;
   font-size: 14px;
   font-weight: 100;
   padding: 1rem 0;
@@ -48,7 +48,7 @@ p {
 }
 
 .navcontainer nav .navright {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .navcontainer nav .navright ul {
@@ -62,6 +62,7 @@ p {
 
 .navcontainer nav .navright ul li {
   padding: 5px 10px 0;
+  font-weight: 600;
 }
 
 .navcontainer nav .navright ul li a {
@@ -130,11 +131,11 @@ p {
 
 .hero .herocontainer .heroinfo .contact img {
   width: 28px;
-  opacity: .5;
+  opacity: .6;
 }
 
 .hero .herocontainer .heroinfo .contact img:hover {
-  opacity: .8;
+  opacity: .9;
 }
 
 .tech-section {
@@ -156,7 +157,7 @@ p {
 }
 
 .tech-section .logos img {
-  opacity: .6;
+  opacity: .8;
   width: 70%;
   margin: 0 auto;
 }
@@ -207,6 +208,7 @@ p {
 
 .project-container .project1 .p-text-container1 a {
   font-size: 14px;
+  font-weight: 600;
   color: #1eb8a4;
   text-decoration: none;
 }
@@ -261,6 +263,7 @@ p {
 
 .project-container2 .project2 .p-text-container2 a {
   font-size: 14px;
+  font-weight: 600;
   color: #1eb8a4;
   text-decoration: none;
 }
@@ -274,8 +277,8 @@ p {
 }
 
 .about {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 63, 112, 0.5)), to(rgba(201, 108, 66, 0.164))), url(/img/bg2.jpg);
-  background-image: linear-gradient(rgba(31, 63, 112, 0.5), rgba(201, 108, 66, 0.164)), url(/img/bg2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 41, 77, 0.603)), to(rgba(131, 55, 20, 0.616))), url(/img/bg2.jpg);
+  background-image: linear-gradient(rgba(18, 41, 77, 0.603), rgba(131, 55, 20, 0.616)), url(/img/bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -316,7 +319,7 @@ footer p {
 }
 
 footer .contact {
-  height: 40vh;
+  height: 30vh;
   width: 30%;
   margin: 0 auto;
   display: -ms-grid;
@@ -329,6 +332,11 @@ footer .contact {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+footer .contact .right-info h1 {
+  font-size: 15px;
+  color: #1eb8a4;
 }
 
 footer .contact .right-info .contacticons {
@@ -345,11 +353,11 @@ footer .contact .right-info .contacticons li {
 
 footer .contact .right-info .contacticons img {
   width: 28px;
-  opacity: .5;
+  opacity: .6;
 }
 
 footer .contact .right-info .contacticons img:hover {
-  opacity: .8;
+  opacity: .9;
 }
 
 footer .contact .photo-container {
@@ -369,6 +377,10 @@ footer .copyright {
   width: 70%;
   margin: 0 auto;
   padding-bottom: 2rem;
+}
+
+footer .copyright p {
+  color: black;
 }
 
 /*IPad*/
