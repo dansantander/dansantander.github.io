@@ -1,8 +1,9 @@
 $light-color: #ffffff;
 $dark-color: #f5f5f5;
-$blueish-color: #1eb8a4;
+$blueish-color: #1dcc66;
+$blueish-color: #1eb897;
 $font-stack: Open Sans;
-$breakpoint-tablet: 768px;
+$breakpoint-tablet: 769px;
 $breakpoint-phone: 425px;
 
 
@@ -49,7 +50,7 @@ p {
     }
 
     .navright {
-      font-size: 13px;
+      font-size: 15px;
       ul{
         display: flex;
         justify-content: space-around;
@@ -125,6 +126,7 @@ p {
 
 .tech-section {
   background-color: $blueish-color;
+  background-color: rgb(29, 37, 35);
   padding: 10px;
   height: 8vh;
 
@@ -181,7 +183,7 @@ p {
       }
 
       a {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         color: $blueish-color;
         text-decoration: none;
@@ -231,7 +233,7 @@ p {
       }
 
       a {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         color: $blueish-color;
         text-decoration: none;
@@ -271,16 +273,22 @@ p {
 
       .img-container {
         width: 150px;
+        height: 150px;
         padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        overflow: hidden;
         
         img {
+
           border-radius: 50%;
           width: 100%;
         }
+
+
       }
 
       a {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         color: $blueish-color;
         text-decoration: none;
@@ -395,7 +403,7 @@ footer {
 
 /*IPad*/
 
-@media (max-width: $breakpoint-tablet) {
+@media only screen and (max-width: $breakpoint-tablet) {
 
   .hero {
     height: 60vh;
@@ -418,6 +426,20 @@ footer {
     height: 11vh;
     .logos{
       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .more-projects {
+    
+    .project-container3 {
+      display: block;
+
+      .project {
+
+        .img-container{
+          display: none;
+        }
+      }
     }
   }
 
@@ -449,7 +471,7 @@ footer {
 }
 
 /*IPhone*/
-@media (max-width: $breakpoint-phone) {
+@media only screen and (min-width: 320px) and (max-width: $breakpoint-phone) {
 
   h1 {
     font-size: 24px;
@@ -541,7 +563,30 @@ footer {
     }
   }
 
+  .more-projects {
+    display: none;
+  }
+
   .about {
-    height: 65vh;
+    min-height: 90vh;
+    .abouttop {
+      word-wrap: break-word;
+      
+    }
+  }
+}
+
+@media only screen and (max-width: 320px)  {
+  .about {
+    min-height: 100vh;
+    .abouttop {
+      word-wrap: break-word;
+      
+    }
+  }
+
+  footer {
+    margin-top: 5rem;
+    height: 50vh;
   }
 }
