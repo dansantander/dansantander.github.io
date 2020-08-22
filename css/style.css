@@ -584,7 +584,7 @@ footer .copyright p {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
   .about {
     min-height: 100vh;
   }
