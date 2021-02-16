@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -25,7 +24,7 @@ p {
 }
 
 a {
-  color: #1dcc66;
+  color: #2893ad;
 }
 
 ul {
@@ -63,7 +62,7 @@ p {
 }
 
 .hero .heroinfo h2 {
-  color: #1dcc66;
+  color: #2893ad;
   font-size: 1.6rem;
 }
 
@@ -86,9 +85,9 @@ p {
 }
 
 .technologies li {
-  border: 2px solid #1dcc66;
+  border: 2px solid #2893ad;
   border-radius: 10px;
-  color: #1dcc66;
+  color: #2893ad;
   font-size: 0.8rem;
 }
 
@@ -108,8 +107,7 @@ p {
 }
 
 .about {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(18, 41, 77, 0.603)), to(rgba(131, 55, 20, 0.616))), url(/img/bg2.jpg);
-  background-image: linear-gradient(rgba(18, 41, 77, 0.603), rgba(131, 55, 20, 0.616)), url(/img/bg2.jpg);
+  background-image: linear-gradient(rgba(18, 41, 77, 0.603), rgba(131, 55, 20, 0.616)), url(../img/bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -126,13 +124,12 @@ p {
 .photo-container img {
   border-radius: 10px;
   width: 100%;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .right-info h1 {
   font-size: 1.5rem;
-  color: #1dcc66;
+  color: #2893ad;
 }
 
 .right-info p {
@@ -146,4 +143,3 @@ p {
 .copyright p {
   font-size: 0.7rem;
 }
-/*# sourceMappingURL=style.css.map */
