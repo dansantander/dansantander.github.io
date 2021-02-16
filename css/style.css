@@ -24,7 +24,7 @@ p {
 }
 
 a {
-  color: #2893ad;
+  color: #4A4A4A;
 }
 
 ul {
@@ -62,7 +62,7 @@ p {
 }
 
 .hero .heroinfo h2 {
-  color: #2893ad;
+  color: #4A4A4A;
   font-size: 1.6rem;
 }
 
@@ -85,9 +85,9 @@ p {
 }
 
 .technologies li {
-  border: 2px solid #2893ad;
+  border: 2px solid #4A4A4A;
   border-radius: 10px;
-  color: #2893ad;
+  color: #4A4A4A;
   font-size: 0.8rem;
 }
 
@@ -129,7 +129,7 @@ p {
 
 .right-info h1 {
   font-size: 1.5rem;
-  color: #2893ad;
+  color: #4A4A4A;
 }
 
 .right-info p {
